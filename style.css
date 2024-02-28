@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Titillium Web", sans-serif;
+    background-color: #222222;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 375px;
+}
+
+.header {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 12px solid #173750;
+    border-radius: .6rem .6rem 0 0;
+    background-image: url('./img/BG.png');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.header-img img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    border: 6px solid tomato;
+}
+
+.header h1, h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #173750;
+}
+
+.header h3 {
+    font-weight: 400;
+}
+
+.contact {
+    padding: 2rem 0;
+    border-bottom: 12px solid #e86c48;
+    border-radius: 0 0 .6rem .6rem;
+    background-color: #173750;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-menu-item {
+    width: 90%;
+    height: 50px;
+    padding: 0 1rem;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: #e86c48;
+}
+
+.navbar-menu-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-menu-icon {
+    width: 32px;
+    position: absolute;
+}
+
+.contact-info {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-info-logo {
+    width: 220px;
+    margin: 1.5rem 0;
+}
+
+.contact-info-qr {
+    width: 120px;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        min-height: 960px;
+    }
+}
+
